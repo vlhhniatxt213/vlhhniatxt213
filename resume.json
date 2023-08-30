@@ -1,94 +1,94 @@
 {
   "titleNameMap": {
-    "educationList": "教育背景",
-    "workExpList": "工作经历",
-    "projectList": "项目经验",
-    "skillList": "个人技能",
-    "awardList": "更多信息",
-    "workList": "个人作品",
-    "aboutme": "个人评价"
+    "educationList": "Education Background",
+    "workExpList": "Work Experience",
+    "projectList": "Project Experience",
+    "skillList": "Skills",
+    "awardList": "Additional Information", 
+    "workList": "Personal Works",
+    "aboutme": "About Me"
   },
   "avatar": {
     "src": "https://avatars.githubusercontent.com/u/15646325?v=4",
     "hidden": true
   },
   "profile": {
-    "name": "陈可",
-    "email": "c@cocolate.cc",
-    "mobile": "15700083605",
-    "github": "https://github.com/oodavy41",
-    "workExpYear": "5"
+    "name": "John Doe",
+    "email": "john@email.com",
+    "mobile": "123-456-7890",
+    "github": "https://github.com/username",
+    "workExpYear": "5" 
   },
   "educationList": [
     {
-      "edu_time": [
+      "edu_time": [ 
         "2013.09.01",
         "2017.06.30"
       ],
-      "school": "浙江工业大学",
-      "major": "数字媒体技术",
-      "academic_degree": "本科"
+      "school": "Zhejiang University of Technology",
+      "major": "Digital Media Technology",  
+      "academic_degree": "Bachelor's Degree"
     }
   ],
   "awardList": [],
   "workExpList": [
     {
-      "company_name": "上海黑芝麻智能科技",
+      "company_name": "Shanghai Black Sesame Intelligent Technology",
       "department_name": "CE development",
       "work_time": [
         "2022.08",
         null
       ],
-      "work_desc": "负责与各算法组对接，提供2D/3D可视化工具和基于Web界面的用户UI和调试工具。\n主要项目有：车路协同项目的用户界面和调试工具开发，ADAS车载感知项目的可视化调试和预览工具开发。\n涉及Typescript、WebGL、React、Rust、以及Godot引擎等技术栈。"
+      "work_desc": "Responsible for interfacing with various algorithm groups to provide 2D/3D visualization tools and web-based user UI and debugging tools. Main projects include: user interface and debugging tool development for vehicle-road collaborative projects, development of visualization debugging and preview tools for ADAS vehicle perception projects. Involves technology stacks such as Typescript, WebGL, React, Rust, and Godot engine."
     },
     {
-      "company_name": "上海合胜科技",
-      "department_name": "数据可视化部门",
+      "company_name": "Shanghai Hesheng Technology",
+      "department_name": "Data Visualization Department", 
       "work_time": [
         "2018.06",
         "2022.08"
       ],
-      "work_desc": "对基于 React，dva，AntDesign 框架的公司数据可视化中台的开发与维护。\n依照客户需求，利用原生 Canvas 、 pixi.js 、 Three.js 、 ArcGis 开发各类定制的可视化项目、组件，优化复杂可视化页面的浏览器性能。\n推进工程化分布式开发，对项目进行模块化拆分，并制作脚手架集成模块环境。为特殊项目（如地图展示、抽象关系数据）开发工具链以打通各级开发与设计流程，提升效率。"
+      "work_desc": "Developed and maintained the company's data visualization platform based on React, dva, and AntDesign frameworks. Developed various custom visualization projects and components based on native Canvas, pixi.js, Three.js, ArcGis according to customer needs, optimized browser performance of complex visualization pages. Promoted modular distributed development, modularized and integrated module environments. Developed toolchains for special projects (e.g. maps, abstract data relationships) to streamline workflows between development and design, improving efficiency."
     },
     {
-      "company_name": "上海心动网络股份有限公司",
+      "company_name": "Shanghai Xindong Network Technology",
       "department_name": "",
       "work_time": [
-        "2017.06",
+        "2017.06", 
         "2018.04"
       ],
-      "work_desc": "负责Unity游戏项目的游戏逻辑开发。\n对接美术设计同事进行游残各类特效的开发。\n参与开发自研游戏团队语音框架，负责OPUS音频 的移植和二次开发"
+      "work_desc": "Responsible for game logic development of Unity game projects. Cooperated with art designers for various special effects. Participated in developing in-house voice chat framework, implemented OPUS audio migration and secondary development."
     }
   ],
   "skillList": [],
   "projectList": [
     {
-      "project_name": "车路协同边缘计算系统",
-      "project_role": "gpu开发工程师",
-      "project_time": "2022.08 - 至今",
-      "project_desc": "结合公司现有的自动驾驶与图形方向算法与技术优势，进行车路协同场景下产品的二次开发。",
-      "project_content": "1.开发可配置3D路口生成工具，基于threejs框架，在输入路口经纬度、各分支方向，道路宽度等少量数据下，即可计算生成包含丰富要素的3D路口场景，并自动转换坐标系，为算法的调试和展示提供平台。\n2. 基于React框架，从0到1开发边缘计算平台后端管理界面，包括各类配置、相机流展示与算法结果的3D渲染。"
+      "project_name": "Vehicle-Road Collaborative Edge Computing System",
+      "project_role": "GPU Developer",
+      "project_time": "Aug 2022 - Present", 
+      "project_desc": "Secondary development of vehicle-road collaborative products by combining the company's existing automatic driving and graphics algorithms and technological strengths.",
+      "project_content": "1. Developed configurable 3D intersection generator tool based on ThreeJS framework. With minimal input data of intersection coordinates, branch directions, road widths, etc., it can generate a 3D intersection scene containing rich features and automatically convert coordinate system to provide debugging and display platform for algorithms.\n2. Developed edge computing platform backend management interface from scratch based on React framework, including various configurations, camera stream display, and 3D rendering of algorithm results."
     },
     {
-      "project_name": "3D流程图/关系图编辑器",
-      "project_role": "开发负责人",
-      "project_time": "2019.04 - 2021.08",
-      "project_desc": "ThreeJS框架的三维流程图编辑器。编辑器拥多种三维对象类型，可以拖动位置，划线。\n支持导入自定义图片、模型，配置对象的属性样式以达到展示目的。可以使用鼠标操作、也可通过UI精确配置，更改样式，支持场景的导入、导出、文件化保存。",
-      "project_content": "负责全部开发工作，同时适配公司的低代码平台与自带UI。通过Shader优化连线的动画效果，支持上万连线数量同屏显示动画。基于命令模式的底层逻辑、实现场景的导入导出，快速恢复，也更易于适配其他UI框架。"
+      "project_name": "3D Flowchart/Relationship Diagram Editor",
+      "project_role": "Lead Developer",
+      "project_time": "Apr 2019 - Aug 2021",  
+      "project_desc": "ThreeJS-based 3D flowchart editor with various 3D object types that can be dragged and connected. Supports importing custom images/models and configuring object properties to meet display needs. Can be manipulated with mouse or configured precisely through UI to modify styles. Supports scene import/export and file-based saving.",
+      "project_content": "Solely responsible for all development work while also adapting it to the company's low-code platform and built-in UI. Optimized line animation effects through shaders, supporting display of 10,000+ simultaneous animated lines. Implemented scene import/export and quick restore based on command pattern logic, making it easier to adapt to other UI frameworks."
     },
     {
-      "project_name": "长宁区一网统管事务大屏项目",
-      "project_role": "核心开发者",
-      "project_time": "2020.03 - 2022.06",
-      "project_desc": "为客户实现多部门数据接入展示开发的智慧城市大屏项目，基于 React 与 Arcgis 框架开发，项目包含基于地图的多类型高时效数据展示，多媒体数据可视化。",
-      "project_content": "前期负责基于 ArcGis 的多个地图展示组件与页面开发。后期接手项目主力，着手推进项目的规划重构、优化代码设计与数据流逻辑。处理客户多部门各类数据，开发转换工具批量处理、归一化地理坐标系，打通工作流程。\n开发聚合、聚集、多边形框选等功能，对地图框架 ArcGisJS 进行深度定制，实现高性能二维空间点聚合运算插件，实现实时性能的海量数据聚合效果(10万+)。解决了浏览器大屏长时间展示的内存溢出问题，实现项目 7 * 24 稳定工作。"
+      "project_name": "Changning District Integrated Management Big Screen",
+      "project_role": "Core Developer", 
+      "project_time": "Mar 2020 - Jun 2022",
+      "project_desc": "Smart city big screen project developed based on React and ArcGIS frameworks for multi-departmental data access and display for client. Includes map-based high frequency data display of various types and multimedia data visualization.",
+      "project_content": "Initially responsible for developing multiple map display components and pages based on ArcGIS. Later took over as project lead, drove planning, code refactoring, design optimization, and data logic improvements. Handled normalization of multi-departmental data into geographic coordinate system through batch processing and conversion tools, streamlining workflows. Developed aggregation, selection, polygon selection and other functions. Deeply customized ArcGISJS map framework to implement high performance spatial point aggregation plugin for real-time aggregation of massive data volumes (100,000+). Solved browser memory overflow issues for long-running big screen display, enabling 24/7 stability."
     }
   ],
   "workList": [],
   "aboutme": {
-    "aboutme_desc": "熟悉现代web端图形技术，了解 Three.js 源码与实现，也有独立开发的基于 WebGL 的开源渲染引擎项目，图形数学基础扎实，拥有一定的理论知识与工程经验。对 Web 端图形相关，动画、粒子、性能调优、内存管理有一定经验。熟悉 WebGL 、 OpenGL 等图形 API 与 GLSL / shader 语言，可以实现各类常见特效，或编写硬件加速优化粒子、动画的性能。了解现代图形渲染管线，关注前沿图形技术，有一定的理解与实现能力。\n熟练使用 HTML 、 CSS 、 Javascript 、 TypeScript 等前端技术，有良好的算法与原生JS基础，也熟悉通过 React 、 redux / dva 进行前端项目开发,可以快速根据设计稿搭建前端页面并实现功能。熟练使用 canvas 、 pixi.js 、 echart 等可视化与特效组件。有一定的审美与设计能力，也可以根据设计需求给出较优的开发方案，对可视化展示效果与细节较为执着。积极推进前端工程化与自动化，了解 Webpack 的常见配置与 npm 脚手架制作。能够熟练使用git工具进行版本控制，多年Linux使用经验，有小范围python、nodejs、c++、godot引擎开发经验。"
+    "aboutme_desc": "Proficient in modern web graphics technologies. Understands Three.js source code and implementations. Also has independent open source WebGL rendering engine project experience demonstrating solid graphics math foundations and engineering skills. Has certain theoretical knowledge and engineering experience related to web graphics, animations, particles, performance optimization, memory management. Has experience with WebGL, OpenGL and other graphics APIs and GLSL/shader languages. Can implement various common effects or write performant hardware accelerated particles/animations. Understands modern rendering pipelines and follows cutting edge graphics technologies with certain comprehension and implementation capabilities.\nProficient with HTML, CSS, JavaScript, TypeScript and other front-end technologies. Has good algorithms and native JS foundations. Also familiar with front-end project development through React, Redux/DVA. Can quickly build front-end pages and implement features based on design drafts. Proficient with canvas, pixi.js, echarts and other visualization and effects components. Has certain aesthetics and design capabilities, and can provide optimized development solutions based on design needs. Pays attention to details of visualization effects. Actively promotes front-end engineering and automation. Familiar with common Webpack configs and creating npm scaffolds. Experienced with git version control, Linux, and some Python, Node.js, C++, Godot engine development experience."
   },
-  "theme": {
+  "theme": { 
     "color": "#2f5785",
     "tagColor": "#8bc34a"
   }
